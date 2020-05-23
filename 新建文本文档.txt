@@ -3,7 +3,7 @@ ifconfig eth0   tcp:传输控制协议 udp:用户数据报协议
    10  hostnamectl set-hostname node1.tedu.cn
    14  yum clean all
    15  yum repolist
-   16  for i in {1..6};do echo -e "192.168.4.$i\tnode$i.tedu.cn\tnode$i" >>/etc/hosts;done
+   对于{1..6}中的i为16；执行echo -e“ 192.168.4。$ i \ tnode $ i.tedu.cn \ tnode $ i” >> / etc / hosts;完成
    17  cat /etc/hosts
    18  ssh-keyscan node{1..6} >>/root/.ssh/known_hosts
    19  ssh-keygen -f /root/.ssh/id_rsa -N '' 
@@ -63,4 +63,4 @@ https://baijiahao.baidu.com/s?id=1618430634156864055&wfr=spider&for=pc
 https://m.baidu.com/bh/m/detail/vc_12379464031502688052
 
 湿热怎么去除
-
+亚布赛噢
